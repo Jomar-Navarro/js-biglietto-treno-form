@@ -7,14 +7,16 @@
     <link rel="stylesheet" href="assets/styles/style.css">
     <title>js-biglietto-treno-form</title>
 </head>
-<body class="bg-dark-subtle">
+<body>
     
-    <header class="my-4 text-center text-uppercase debug">
+    <header class="my-4 text-center text-uppercase text-white">
         <h1>calcola il prezzo del tuo biglietto</h1>
     </header>
 
     <main>
-        <div class="container debug text-center">
+
+      <section>
+        <div class="container text-center one p-5 rounded-5">
           <form action="#">
             <div class="row g-3 my-3">
 
@@ -40,33 +42,34 @@
               </div>
 
               <div>
-                <button class="btn1 bg-body-tertiary ">Submit</button>
-                <button class="btn2 bg-body-tertiary">Reset</button>
+                <button class="btn1 btn-success">Genera</button>
+                <button class="btn2">Reset</button>
               </div>
             </form>
         </div>
+      </section>
 
-        <section class="hidden text-center my-3 d-none">
-          <h1 class="text-uppercase">Il tuo biglietto</h1>
-          <div class="container text-center my-4 debug">
+        <section class="hidden text-center d-none my-3">
+          <h1 class="text-uppercase text-white">Il tuo biglietto</h1>
+          <div class="container text-center my-4 two p-3 rounded-3">
             <div class="row m-3">
-              <div class="col-4 debug">
+              <div class="col-4">
                 <h4 class="text-uppercase">Nome passeggero</h4>
-                <p class='utente'></p>
+                <p class='utente fs-4'></p>
               </div>
-              <div class="col-2 debug">
+              <div class="col-2">
                 <h5>Offerta</h5>
                 <p class="offer"></p>
               </div>
-              <div class="col-2 debug">
+              <div class="col-2">
                 <h5>Carrozza</h5>
                 <p class="carrozza"></p>
               </div>
-              <div class="col-2 debug">
+              <div class="col-2">
                 <h5>Codice CP</h5>
                 <p class="code"></p>
               </div>
-              <div class="col-2 debug">
+              <div class="col-2">
                 <h5>Costo biglietto</h5>
                 <p class="price">&euro;</p>
               </div>

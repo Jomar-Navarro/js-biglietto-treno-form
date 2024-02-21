@@ -22,9 +22,14 @@ Controllare la validità dei dati e in caso di fallimento generare un messaggio 
 
 ## SVOLGIMENTO
 
-1. Promt di Km da percorrere e l'etá;
-2. Creo variabile per il prezzo fisso;
-3. Creo variabile per gli sconti;
-4. Calcolo il prezzo al Km;
-5. Creo un'istruzione condizionale che mi calcola lo sconto in base all'etá del passeggero.
-6. 
+1. Inserimento degli elementi di HTML;
+2. Inserimento di variabili per il calcolo del prezzo e dello sconto;
+3. Creo una funzione con un evento click;
+4. Inserisco alcune variabili per i calcoli;
+5. Dentro la funzione click aggiungo un'istruzione di condizione;
+6. Dentro questa condizione sono contenuti i calcoli e l'output in forma umana nelle apposite colonne;
+7. Inserimento di una estrazione casuale di numeri da 1 a 5;
+8. Inserimento di una estrazione casuale di numeri da 1 a 9999;
+9. Creo una seconda funzione per il secondo bottone con sempre un evento click;\
+10. I valori nelle celle si resettano al click del bottone;
+11. Inserisco un controllo di vadilitá.

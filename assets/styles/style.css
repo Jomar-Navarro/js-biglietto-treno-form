@@ -1,3 +1,42 @@
 .debug{
     border: 1px dashed black;
 }
+
+body{
+    background-image: url(https://wallpapercrafter.com/sizes/1920x1080/155930-sunset-sky-train-clouds-anime-power-lines-fence-vehicle.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.one, .two{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.one input,
+.one select{
+    border: 1px solid black;
+}
+
+.two .row{
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+}
+
+.col-4{
+    background-color: darkred;
+    color: white;
+}
+
+.btn1{
+    color: darkred;
+    background-color: deepskyblue;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.btn2{
+    background-color: darkgrey;
+    padding: 10px;
+    border-radius: 15px;
+}
