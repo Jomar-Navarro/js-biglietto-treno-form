@@ -71,6 +71,6 @@ btn2.addEventListener('click', function(){
   nomeCognome.value = '';
   input2.value = '';
   age.value = 'Fascia di etá';
-  hidden.classList.toggle('d-none');
+  hidden.classList.add('d-none');
 })
 
